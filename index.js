@@ -51,10 +51,18 @@ input.addEventListener('change', ()=> {
     } else {
       saison.innerHTML ="Ta saison n'existe pas";
     }
-    // switch(total) {
-    //   case 0: 
-    //   saison.innerHTML = "Janvier";
-    //   break;
-    //   default : console.log('ca ne marche pas');
-    // }
+  
+
+ //   var today = new Date();
+//var spring = new Date(today.getFullYear(), 2, 21);
+//var summer = new Date(today.getFullYear(), 5, 21);
+//var autumn = new Date(today.getFullYear(), 8, 21);
+//var winter = new Date(today.getFullYear(), 11, 21);
+
+//if (today < spring && today >= winter) {
+  // code pour hiver
+//}
+
+
+
 })
